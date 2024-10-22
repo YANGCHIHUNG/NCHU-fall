@@ -1,5 +1,7 @@
 # HW1-1
 
+![web](/images/web.png)
+
 ## Prompt
 
 task:
