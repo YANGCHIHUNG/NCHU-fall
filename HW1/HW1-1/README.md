@@ -38,7 +38,7 @@ Enable users to interact with and modify the coefficients of a linear regression
 
 In this phase, we simulate data and prepare it for modeling.
 
-### Data Generation:
+* Data Generation:
 ```python
 x = np.random.uniform(-10, 10, 100)
 noise = np.random.normal(0, N, x.shape)
@@ -46,7 +46,7 @@ y = a * x + b + noise
 ```
 We generate a random dataset of 100 points simulating noisy linear data based on user-provided parameters. No additional cleaning is needed because the data is synthetically generated.
 
-### Features:
+* Features:
 - `x`: Independent variable
 - `y`: Dependent variable influenced by the model and noise
 
@@ -55,7 +55,7 @@ We generate a random dataset of 100 points simulating noisy linear data based on
 
 We use linear regression to model the relationship between `x` and `y`.
 
-### Model Selection:
+* Model Selection:
 We use **numpy's polyfit** function to fit a linear regression line:
 ```python
 coeffs = np.polyfit(x, y, 1)
@@ -63,7 +63,7 @@ y_fit = coeffs[0] * x + coeffs[1]
 ```
 This fits a straight line to the data points `x` and `y`, where `coeffs[0]` is the slope and `coeffs[1]` is the intercept of the fitted line.
 
-### Visualization:
+* Visualization:
 The model results are visualized using matplotlib:
 ```python
 plt.scatter(x, y, label='Data points')
@@ -78,10 +78,10 @@ plt.legend()
 
 The model is evaluated by visual inspection.
 
-### Evaluation via Visualization:
+* Evaluation via Visualization:
 The scatter plot of the data points along with the fitted regression line allows users to visually inspect the quality of the fit.
 
-### User Feedback:
+* User Feedback:
 The web app allows users to modify the parameters and observe the updated results in real-time.
 
 
