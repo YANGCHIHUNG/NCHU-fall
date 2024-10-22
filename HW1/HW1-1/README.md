@@ -157,7 +157,7 @@ The model is deployed in a web-based application, where users can input values f
 1. Clone the repository:
     ```bash
     git clone https://github.com/YANGCHIHUNG/IoT-data-analysis-and-application.git
-    cd HW1/HW1-1
+    cd HW1/HW1-2
     ```
 2.  Install the required dependencies using requirements.txt:
     ```bash
