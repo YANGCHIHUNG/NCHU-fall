@@ -1,6 +1,6 @@
 # HW1-1
 
-![web](HW1/HW1-1/images/web.png)
+![web](/HW1/HW1-1/images/web.png)
 
 ## Prompt
 
