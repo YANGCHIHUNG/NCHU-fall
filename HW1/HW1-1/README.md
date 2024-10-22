@@ -145,10 +145,10 @@ The model is deployed in a web-based application, where users can input values f
 ## How to Run the Application
 
 ### Prerequisites
-    * Python 3.x
-    * Flask
-    * NumPy
-    * Matplotlib
+* Python 3.x
+* Flask
+* NumPy
+* Matplotlib
 
 ### Installation
 
@@ -168,5 +168,5 @@ The model is deployed in a web-based application, where users can input values f
 4. Open your browser and go to http://127.0.0.1:5000.
 
 ### Usage
-    - The application will open a webpage where users can input values for a (slope), b (intercept), and N (noise).
-    - Click "Submit" to update the graph. The graph will display the data points and the regression line based on the input values.
+* The application will open a webpage where users can input values for a (slope), b (intercept), and N (noise).
+* Click "Submit" to update the graph. The graph will display the data points and the regression line based on the input values.
