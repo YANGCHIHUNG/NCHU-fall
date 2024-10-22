@@ -142,3 +142,31 @@ if __name__ == '__main__':
 ```
 The model is deployed in a web-based application, where users can input values for the linear model's parameters and receive a dynamic plot in return.
 
+## How to Run the Application
+
+### Prerequisites
+    * Python 3.x
+    * Flask
+    * NumPy
+    * Matplotlib
+
+### Installation
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/YANGCHIHUNG/IoT-data-analysis-and-application.git
+    cd HW1/HW1-1
+    ```
+2.  Install the required dependencies using requirements.txt:
+    ```bash
+    pip install -r requirements.txt
+    ```
+3. Run the application:
+    ```bash
+    python app.py
+    ```
+4. Open your browser and go to http://127.0.0.1:5000.
+
+### Usage
+    - The application will open a webpage where users can input values for a (slope), b (intercept), and N (noise).
+    - Click "Submit" to update the graph. The graph will display the data points and the regression line based on the input values.
