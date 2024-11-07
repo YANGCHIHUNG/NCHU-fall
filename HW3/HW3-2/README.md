@@ -7,16 +7,11 @@ This project demonstrates a 3D visualization of data using a Gaussian function a
 1. **Clone the repository**:
     ```sh
     git clone <repository-url>
+    cd HW3
     cd HW3-2
     ```
 
-2. **Create and activate a virtual environment**:
-    ```sh
-    python -m venv HW3-2_venv
-    source HW3-2_venv/bin/activate  # On Windows, use `HW3-2_venv\Scripts\activate`
-    ```
-
-3. **Install the required dependencies**:
+2. **Install the required dependencies**:
     ```sh
     pip install -r requirements.txt
     ```
