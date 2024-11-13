@@ -1,5 +1,7 @@
 # HW3-2
 
+![web](/HW1/HW1-1/images/screenshot.png)
+
 ## Overview
 This project demonstrates a 3D visualization of data using a Gaussian function and a Linear Support Vector Machine (SVM) for classification. The application is built using Streamlit for interactive visualization.
 
