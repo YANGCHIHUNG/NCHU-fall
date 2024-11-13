@@ -8,7 +8,7 @@ This project demonstrates a 3D visualization of data using a Gaussian function a
 ## Setup and Installation
 1. **Clone the repository**:
     ```sh
-    git clone <repository-url>
+    git clone https://github.com/YANGCHIHUNG/IoT-data-analysis-and-application.git
     cd HW3
     cd HW3-2
     ```
