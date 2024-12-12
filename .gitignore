@@ -1,5 +1,6 @@
 .DS_Store
 *venv
 .vscode
-*logs.log
+logs/
+*.log
 *.ipynb_checkpoints
