@@ -20,8 +20,8 @@ The Iris dataset is a classic dataset used for machine learning and contains thr
 
 1. **Clone the repository**:
     ```sh
-    git clone https://github.com/YOUR_USERNAME/iris-tensorboard.git
-    cd iris-tensorboard
+    git clone https://github.com/YANGCHIHUNG/IoT-data-analysis-and-application.git
+    cd HW5/HW5-1
     ```
 
 2. **Install the required dependencies**:
