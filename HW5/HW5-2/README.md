@@ -35,25 +35,25 @@ This homework involves building and training two different neural network models
 
 The `DNN.ipynb` notebook contains the following steps:
 
-Import Required Libraries: Import TensorFlow, Keras, and NumPy.
-Load and Preprocess the MNIST Dataset: Load the dataset, normalize the images, and convert the labels to categorical format.
-Build the DNN Model: Define a sequential model with multiple dense layers.
-Compile the Model: Compile the model with an appropriate optimizer, loss function, and evaluation metric.
-Train the Model: Train the model using the training data and validate it using the validation data.
-Evaluate the Model: Evaluate the model's performance on the test data and print the accuracy.
-Make Predictions: Use the trained model to make predictions on new data and visualize the results.
+1. **Import Required Libraries:** Import TensorFlow, Keras, and NumPy.
+2. **Load and Preprocess the MNIST Dataset:** Load the dataset, normalize the images, and convert the labels to categorical format.
+3. **Build the DNN Model:** Define a sequential model with multiple dense layers.
+4. **Compile the Model:** Compile the model with an appropriate optimizer, loss function, and evaluation metric.
+5. **Train the Model:** Train the model using the training data and validate it using the validation data.
+6. **Evaluate the Model:** Evaluate the model's performance on the test data and print the accuracy.
+7. **Make Predictions:** Use the trained model to make predictions on new data and visualize the results.
 
 ## CNN Model
 
 The `CNN.ipynb` notebook contains the following steps:
 
-Import Required Libraries: Import TensorFlow, Keras, and other dependencies.
-Load and Preprocess the MNIST Dataset: Load the dataset, normalize the pixel values, and reshape the input data.
-Build the CNN Model: Define the CNN architecture using Keras, including convolutional layers, pooling layers, and dense layers.
-Compile the Model: Compile the model with an appropriate optimizer, loss function, and evaluation metrics.
-Train the Model: Train the CNN model on the training data and validate it on the validation data.
-Evaluate the Model: Evaluate the trained model on the test data and report the accuracy and other metrics.
-Make Predictions: Use the trained model to make predictions on new data and visualize the results.
+1. **Import Required Libraries:** Import TensorFlow, Keras, and other dependencies.
+2. **Load and Preprocess the MNIST Dataset: **Load the dataset, normalize the pixel values, and reshape the input data.
+3. **Build the CNN Model:** Define the CNN architecture using Keras, including convolutional layers, pooling layers, and dense layers.
+4. **Compile the Model:** Compile the model with an appropriate optimizer, loss function, and evaluation metrics.
+5. **Train the Model:** Train the CNN model on the training data and validate it on the validation data.
+6. **Evaluate the Model:** Evaluate the trained model on the test data and report the accuracy and other metrics.
+7. **Make Predictions:** Use the trained model to make predictions on new data and visualize the results.
 
 ## Running the Notebooks
 
@@ -61,7 +61,7 @@ Make Predictions: Use the trained model to make predictions on new data and visu
    ```bash
    jupyter notebook
 
-2. Open DNN.ipynb and CNN.ipynb notebooks and run the cells sequentially to train and evaluate the models.
+2. Open `DNN.ipynb` and `CNN.ipynb` notebooks and run the cells sequentially to train and evaluate the models.
 
 ## Results
 - The DNN model achieves a test accuracy of approximately 97.68%.
