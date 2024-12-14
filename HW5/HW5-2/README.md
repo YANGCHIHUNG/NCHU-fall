@@ -33,7 +33,7 @@ This homework involves building and training two different neural network models
 
 ## DNN Model
 
-The DNN.ipynb notebook contains the following steps:
+The `DNN.ipynb` notebook contains the following steps:
 
 Import Required Libraries: Import TensorFlow, Keras, and NumPy.
 Load and Preprocess the MNIST Dataset: Load the dataset, normalize the images, and convert the labels to categorical format.
@@ -45,7 +45,7 @@ Make Predictions: Use the trained model to make predictions on new data and visu
 
 ## CNN Model
 
-The CNN.ipynb notebook contains the following steps:
+The `CNN.ipynb` notebook contains the following steps:
 
 Import Required Libraries: Import TensorFlow, Keras, and other dependencies.
 Load and Preprocess the MNIST Dataset: Load the dataset, normalize the pixel values, and reshape the input data.
