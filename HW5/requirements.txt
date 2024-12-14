@@ -3,3 +3,6 @@ tensorflow
 tensorboard
 scikit-learn
 numpy
+matplotlib
+seaborn
+keras
