@@ -48,7 +48,7 @@ The `DNN.ipynb` notebook contains the following steps:
 The `CNN.ipynb` notebook contains the following steps:
 
 1. **Import Required Libraries:** Import TensorFlow, Keras, and other dependencies.
-2. **Load and Preprocess the MNIST Dataset: **Load the dataset, normalize the pixel values, and reshape the input data.
+2. **Load and Preprocess the MNIST Dataset:** Load the dataset, normalize the pixel values, and reshape the input data.
 3. **Build the CNN Model:** Define the CNN architecture using Keras, including convolutional layers, pooling layers, and dense layers.
 4. **Compile the Model:** Compile the model with an appropriate optimizer, loss function, and evaluation metrics.
 5. **Train the Model:** Train the CNN model on the training data and validate it on the validation data.
