@@ -4,3 +4,15 @@
 logs/
 *.log
 *.ipynb_checkpoints
+# Ignore model files with common extensions
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+*.pb
+
+# Ignore specific model directories
+models/
+checkpoints/
+saved_models/
