@@ -9,3 +9,4 @@ Pillow
 notebook
 diffusers
 torch
+transformers
